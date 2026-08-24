@@ -1,4 +1,9 @@
+<img width="1917" height="1004" alt="Screenshot 2026-05-27 163239" src="https://github.com/user-attachments/assets/e9488dda-8bf2-4365-9409-f5a7a263ca47" />
+
+<img width="1504" height="819" alt="Screenshot 2026-06-01 221653" src="https://github.com/user-attachments/assets/c4c002b6-67d6-44ac-82f5-169f7c2ba64a" />
+
 <img width="1533" height="952" alt="Screenshot 2026-06-01 221855" src="https://github.com/user-attachments/assets/0c125f06-3875-47af-98b9-d2f8de9b1d53" />
+
 
 
 # Runtime-Adaptive Cache-Aware Merge Sort (RACAMS)
