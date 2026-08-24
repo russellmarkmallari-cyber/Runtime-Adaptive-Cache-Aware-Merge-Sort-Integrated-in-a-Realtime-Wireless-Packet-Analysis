@@ -143,28 +143,43 @@ pip install scapy psutil streamlit
 
 ## Running the Project
 
-### 1. Clone the Repository
+The public repository contains the **RACAMS algorithm source and header files** for testing and evaluation. The complete packet analysis application and research environment are not included in the public repository.
+
+To test RACAMS, download the algorithm source files and integrate them into your own C/C++ testing environment.
+
+### Recommended Environment
+
+* **MSYS2 x86** — C/C++ compilation and development environment
+* **Ubuntu Linux Virtual Environment** — Linux-based performance testing and benchmarking
+* **Npcap** — Network packet capture support for Windows-based testing
+* **Scapy** — Packet sniffing and network traffic generation
+* **psutil** — System resource monitoring
+* **tracemalloc** — Memory allocation tracking
+* **ctypes** — Python-to-C/C++ integration when building your own testing environment
+
+### Basic Setup
+
+1. Clone or download this repository.
 
 ```bash
 git clone https://github.com/your-username/RACAMS.git
 cd RACAMS
 ```
 
-### 2. Install Dependencies
+2. Download the RACAMS source and header files from the `src/` directory.
 
-```bash
-pip install -r requirements.txt
-```
+3. Set up your preferred **C/C++ development environment**, such as **MSYS2 x86** or **Ubuntu Linux**.
 
-### 3. Build the RACAMS Engine
+4. Compile the RACAMS source files with your preferred C/C++ compiler.
 
-Compile the C/C++ RACAMS implementation using the appropriate compiler environment.
+5. Create your own test harness or integrate the algorithm into a suitable application for benchmarking.
 
-For Windows development, MSYS2 x86 can be used to build the native library.
+6. For network-based testing, **Npcap** and **Scapy** can be used to capture or generate packet data.
 
-### 4. Run the Packet Analysis System
+7. For system-level analysis, **psutil** and **tracemalloc** can be used to monitor resource and memory behavior.
 
-Launch the Python application or Streamlit dashboard according to the project's entry point.
+> **Note:** The complete Python packet-analysis application and original research test environment are intentionally not included in this public portfolio repository. Users are encouraged to build their own testing environment around the provided RACAMS algorithm implementation.
+
 
 Example:
 
