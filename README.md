@@ -1,0 +1,2 @@
+# Runtime-Adaptive-Cache-Aware-Merge-Sort-Integrated-in-a-Realtime-Wireless-Packet-Analysis
+Runtime-Adaptive Cache-Aware Merge Sort (RACAMS), an adaptive sorting framework for real-time wireless network packet analysis. Dynamically adjusts sorting strategies based on runtime cache performance and memory conditions to reduce cache misses, improve data locality, and optimize high-frequency data stream processing.
