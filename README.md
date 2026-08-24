@@ -12,15 +12,18 @@ The framework is integrated into a real-time wireless network packet analysis te
 
 ## Key Features
 
-* Runtime-adaptive sorting and merging strategies
-* Cache-aware memory access optimization
-* Real-time wireless network packet processing
-* Packet sniffing and analysis using Scapy
-* Runtime memory monitoring and profiling
-* System resource monitoring
-* C/C++ algorithm implementation integrated with Python
-* Hardware and system-level performance evaluation
-* Comparative benchmarking against traditional sorting approaches
+- Runtime-adaptive sorting
+- Cache-aware processing
+- Real-time packet analysis
+- Scapy/Npcap integration
+- C/C++ algorithm engine
+- Python integration through ctypes
+- Runtime resource monitoring
+
+## Tech Stack (Significant Tools Used)
+
+C/C++ • Python • Scapy • Npcap • MSYS2 • Ubuntu Linux •
+ctypes • psutil • tracemalloc • Streamlit
 
 ## System Architecture
 
@@ -184,6 +187,9 @@ The framework was tested using a real-time wireless network packet analysis test
 * Hardware-level measurements may vary across systems.
 * Results may differ depending on dataset size, system workload, and runtime conditions.
 
+## Demo Video
+[▶ Watch the Demo](https://youtu.be/Vd9Ayo23hPs)
+
 ## Future Improvements
 
 * Support for additional CPU architectures
@@ -209,6 +215,11 @@ The project explores the intersection of:
 * Real-Time Systems
 * System Performance Analysis
 
-## License
+## Attribution
 
-This project is intended primarily for academic and research purposes.
+RACAMS was developed by Russell Mallari and 2 others as an academic research project
+during A.Y. 2025–2026.
+
+The public repository represents a portfolio-oriented version of the
+research implementation. Certain research materials, source code, and implementation
+details are intentionally excluded for intellectual property precautions.
